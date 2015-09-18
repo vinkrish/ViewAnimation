@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:orientation="vertical" >
+        
+        <Button
+            android:id="@+id/scale" 
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Scale Animation"
+            android:onClick="scaleAnimation"/>
+        <Button 
+            android:id="@+id/translate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Translate Animation"
+            android:onClick="translateAnimation"/>
+        <Button 
+            android:id="@+id/rotate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Rotate Animation"
+            android:onClick="rotateAnimation"/>
+        <Button 
+            android:id="@+id/alpha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Alpha Animation"
+            android:onClick="alphaAnimation"/>
+        <Button 
+            android:id="@+id/combine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Combine Animation"
+            android:onClick="combineAnimation"/>
+        <Button 
+            android:id="@+id/sequence"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Sequence Animation"
+            android:onClick="sequenceAnimation"/>
+        <Button 
+            android:id="@+id/cycleInterpolator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cycle Interpolator"
+            android:onClick="cycleAnimation"/>
+        <Button 
+            android:id="@+id/repeatInterpolator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Repeat Interpolator"
+            android:onClick="repeatAnimation"/>
+        
+    </LinearLayout>
+
+
+</ScrollView><!-- From: file:/C:/Users/Shrey/AndroidStudioProjects/ViewAnimation/app/src/main/res/layout/activity_angel.xml -->
