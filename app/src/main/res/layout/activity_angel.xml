@@ -15,58 +15,66 @@
             android:id="@+id/scale" 
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Scale Animation"
             android:onClick="scaleAnimation"/>
         <Button 
             android:id="@+id/translate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Translate Animation"
             android:onClick="translateAnimation"/>
         <Button 
             android:id="@+id/rotate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Rotate Animation"
             android:onClick="rotateAnimation"/>
         <Button 
             android:id="@+id/alpha"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Alpha Animation"
             android:onClick="alphaAnimation"/>
         <Button 
             android:id="@+id/combine"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Combine Animation"
             android:onClick="combineAnimation"/>
         <Button 
             android:id="@+id/sequence"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Sequence Animation"
             android:onClick="sequenceAnimation"/>
         <Button 
             android:id="@+id/cycleInterpolator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Cycle Interpolator"
             android:onClick="cycleAnimation"/>
         <Button 
             android:id="@+id/repeatInterpolator"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="15dp"
             android:text="Repeat Interpolator"
             android:onClick="repeatAnimation"/>
+
+        <Button
+            android:id="@+id/programAnimation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Animation with code"
+            android:onClick="programAnimation"/>
         
     </LinearLayout>
 

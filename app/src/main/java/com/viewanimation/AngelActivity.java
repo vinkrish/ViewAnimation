@@ -53,4 +53,9 @@ public class AngelActivity extends Activity {
         startActivity(i);
     }
 
+    public void programAnimation(View view) {
+        Intent i = new Intent(AngelActivity.this, ProgramAnimation.class);
+        startActivity(i);
+    }
+
 }

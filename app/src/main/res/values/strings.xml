@@ -12,5 +12,6 @@
     <string name="title_activity_sequence">Sequence</string>
     <string name="title_activity_cycle_interpolator">CycleInterpolator</string>
     <string name="title_activity_repeat_interpolator">RepeatInterpolator</string>
+    <string name="title_activity_program_animation">ProgramAnimation</string>
 
 </resources>

@@ -12,6 +12,7 @@
     <string name="title_activity_alpha">Alpha</string>
     <string name="title_activity_combine">Combine</string>
     <string name="title_activity_cycle_interpolator">CycleInterpolator</string>
+    <string name="title_activity_program_animation">ProgramAnimation</string>
     <string name="title_activity_repeat_interpolator">RepeatInterpolator</string>
     <string name="title_activity_rotate">Rotate</string>
     <string name="title_activity_scale">Scale</string>
